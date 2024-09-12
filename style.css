@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .main{
+    background: linear-gradient(90deg, rgb(242, 113, 33), #892387 );
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background: linear-gradient(90deg, #892387 ,rgb(242, 113, 33));
+    box-shadow: black 0px 0px 20px 5px;
+    border-radius: 5px;
+    height: 85vh;
+    width: 80vw;
+} */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+}
+.bg-div{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, #f27121,#e94057 ,#892387 );
+    transform: rotate(20deg);
+    position: relative;
+    margin: 0 auto;
+    scale: 1.2;
+    filter: blur(5px);
+}
+
+.content{
+    height: 35vw;
+    width: 70vw;
+    background: linear-gradient(90deg,#8a2387, #e94057, #f27121);
+    box-shadow: black 0px 0px 10px 5px;
+    border-radius: 10px;
+    position: absolute;
+    padding: 30px;
+    top: 10%;
+    left: 16%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .para h1{
+    font-size: 32px;
+}
+
+.para{
+    max-width: 50%;
+    font-size: 20px;
+
+}
+
+.new-times-roman{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.image{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    bottom: 60px;
+    left: 120px;
+}
+
+.image img{
+    height: 70%;
+    width: 100%;
+    transition: all 0.1s ease;
+}
+
+
+.image img:hover{
+    cursor: pointer;
+    scale: 1.6;
+    transform: translate(-120px, 100px);
+}
+
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    margin: 15px 0px;
+}
